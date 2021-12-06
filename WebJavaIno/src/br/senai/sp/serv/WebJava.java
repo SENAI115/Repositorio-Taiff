@@ -90,7 +90,13 @@ public class WebJava extends HttpServlet {
 
 
 
+		posXatual = posXdestino;
+		posYatual = posYdestino;
+		posZatual = posZdestino;
+		posRatual = posRdestino;
 
+		System.out.println("destino: " + posXdestino);
+		System.out.println("atual: " + posXatual);
 		
 		
 		if (posi.operacao.equals("zeraPeca") ) {
@@ -108,13 +114,7 @@ public class WebJava extends HttpServlet {
 		}
 		
 
-		posXatual = posXdestino;
-		posYatual = posYdestino;
-		posZatual = posZdestino;
-		posRatual = posRdestino;
-
-		System.out.println("destino: " + posXdestino);
-		System.out.println("atual: " + posXatual);
+		
 
 
 		
